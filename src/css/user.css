@@ -1,0 +1,173 @@
+span .navLink{
+    cursor: pointer;
+}
+a :hover{
+    text-decoration: none  !important;
+}
+.registerLink{
+    color:rgb(87, 87, 230)
+}
+.register
+{
+    width: 33%;
+    margin-left: 31%;
+}
+.register select{
+    display: block;
+    width: 100%;
+    height: 68px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.profileSetup
+{
+    /* padding: 2%; */
+    background-color: white;
+    height: auto;
+    border-radius: 14px;
+    min-height: 40%;
+    margin-bottom: 5%;
+}
+.previousBtn , .nextBtn{
+    background: #009868;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    min-height: 40px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 15px;
+}
+.profilesBtn
+{
+    display: flex;
+    padding: 0 3%;
+    justify-content: space-between;
+}
+.sectionHeading{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 1% 0 0 3%;
+    margin-bottom: 15px;
+}
+.selectManuItems{
+    display: grid;
+    padding: 3%;
+    grid-template-columns: auto auto auto auto auto auto ;
+    /* background-color: #2196F3; */
+}
+.addpersonsHeadings{
+    padding: 10px 0px 0px 27px;
+}
+.padding20{
+    padding: 3%;
+}
+.userCustomRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+
+.userCustomRow .value{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.userHomeRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+    /* padding: 20px 30px 20px 30px; */
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+
+.userHomeRow .infoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;    
+}
+
+.firstDivOfuserHomeRow {
+    column-gap: 22px;
+display:flex
+}
+
+.recordName{
+    font-weight: 600;
+    font-size: 18px;
+}
+.recordDate{
+    font-size: 11px;
+}
+.addRecordBtn{
+    width: 100px;
+    margin-top: 23px;
+    /* padding: 1px; */
+    height: 21px;
+    /* border: 1px solid; */
+    padding: 0px 0px 0px 6px;
+    border-radius: 5px;
+    background-color: #009868;
+    color: #fff;
+}
+
+.userCardSection{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-row-gap: 30px;
+    justify-content: space-between;
+    grid-column-gap: 30px;
+}
+
+.userCardSection .card{
+    height: 120px;
+    border-radius: 10px;
+    width: 360px;
+    /* max-width: 80%; */
+    /* background-color: #F2EAED; */
+
+}
+.userCardSection .card .innerCard {
+    padding: 11px 0px 0px 17px;
+    display: flex;
+    /* gap: 25px; */
+    flex-direction: column;
+}
+.secondRow{
+    /* padding: 0px 0px 0px 18px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.userCardSection .name{
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.userCardSection  .parentSecondRow{
+    
+    display: flex;
+    padding: 0px 18px;
+    color: black;
+    justify-content: space-between;
+}
+.userCardSection .count{
+    margin-left: 10px;
+}
+.topHeader .profileLink{
+    cursor: pointer;
+}
